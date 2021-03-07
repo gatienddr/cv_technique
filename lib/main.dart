@@ -36,7 +36,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Expanded(child: Image(image: AssetImage('../img/photoCv.jpg'))),
+            Expanded(child: Image(image: AssetImage('../img/photoCv.jpg'))
+            ),
             Container(
               margin: const EdgeInsets.only(top: 10),
               constraints: BoxConstraints.expand(
