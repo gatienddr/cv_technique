@@ -36,6 +36,9 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
+dependency_overrides:
+  url_launcher: '6.0.2'
+
 # The following section is specific to Flutter.
 flutter:
 
@@ -43,6 +46,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -65,6 +70,11 @@ flutter:
        fonts:
          - asset: fonts/Ubuntu-Light.ttf
          - asset: fonts/Ubuntu-LightItalic.ttf
+           style: italic
+     - family: NotoSans
+       fonts:
+         - asset: fonts/NotoSans-Regular.ttf
+         - asset: fonts/NotoSans-Italic.ttf
            style: italic
   #   - family: Trajan Pro
   #     fonts:
