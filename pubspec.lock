@@ -72,6 +72,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  foldable_sidebar:
+    dependency: "direct main"
+    description:
+      name: foldable_sidebar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   js:
     dependency: transitive
     description:
@@ -140,6 +147,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.0"
+  swipedetector:
+    dependency: "direct main"
+    description:
+      name: swipedetector
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.2.0"
   term_glyph:
     dependency: transitive
     description:
