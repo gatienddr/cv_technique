@@ -72,17 +72,29 @@ class Home extends StatelessWidget {
                               0.00005),
                     ),
                     InkWell(
-                      child:  Text("Swipez vers la droite pour voir le menu",
+
+                      child : Center(child: Column(
+                          children: [Text("Swipez vers la droite pour voir le menu ",
                           style: TextStyle(
-                              height: 2.5,
-                              )
+                            height: 2.5,
+                          )
                       ),
-                      onTap: ()  {
-                        callback(FSBStatus.FSB_OPEN);
-                      },
-                    ),
+                            Text("ou cliquez ici",
+                            ),
+
+
+
+
+                      ])),
+                        onTap: ()  {
+              callback(FSBStatus.FSB_OPEN);
+              },
+                ),
+
+
 
                   ],
+
                 ),
                 decoration: BoxDecoration(
                   color: Colors.brown[400],
